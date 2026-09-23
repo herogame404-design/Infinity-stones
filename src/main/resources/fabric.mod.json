@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitygauntlet",
+  "version": "0.1.0-phase1",
+  "name": "Infinity Gauntlet Mod",
+  "description": "Phase 1: Gauntlet + 6 Infinity Stone items with base textures. Foundation for future phases (socketing, stone powers, heart-drain system, the Snap, custom dimensions).",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": null,
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.infinitygauntlet.InfinityGauntletMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
